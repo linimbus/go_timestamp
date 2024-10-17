@@ -39,10 +39,6 @@ func init() {
 	flag.BoolVar(&Option_help, "help", false, "Usage help")
 }
 
-func GetVersion() string {
-	return "v0.1.0"
-}
-
 func main() {
 	flag.Parse()
 	if Option_help {
